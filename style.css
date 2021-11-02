@@ -79,6 +79,7 @@ img {
     box-sizing: border-box;
   }
 
+  /* colore sfondo */
   #lezioni, #why {
     background-color: #F2F2CD;
   }
@@ -87,13 +88,7 @@ img {
     width: 100%;
     margin: 0;
     padding: 1em 1em;
-    font-size: 0.8em;
-  }
-  
-  #lezioni .row > .left,
-  #lezioni .row > .right {
-    width: 100%;
-    float: none;
+    font-size: 0.7em;
   }
 
   .row > div {
@@ -105,16 +100,35 @@ img {
   }
 
   img {
-  /* per centrare orizzontalmente */
-  max-width: 30%;
-  height: auto;
+    max-width: 30%;
+    height: auto;
+  }
+  
+  /* sezione lezioni */
+  #lezioni .row > .left,
+  #lezioni .row > .right {
+    width: 100%;
+    float: none;
   }
 
-  #steps .row>.left,
-  #steps .row>.central,
-  #steps .row>.right {
-  float: none;
-  width: 100%;
+  /* sezione steps */
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right {
+    float: none;
+    width: 100%;
   }
 
+  /* sezione why */
+  #why .row > .first,
+  #why .row > .second,
+  #why .row > .third {
+    width: 100%;
+    margin-top: 1em;
+  }
+
+  #why .row img {
+    max-width: 20%;
+    padding: 20px;
+  }
 }
